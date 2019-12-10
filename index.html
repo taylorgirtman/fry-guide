@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Gainesville Guide to French Fries</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+  <link href="dist/css/tabulator.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Archivo|Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h1><strong>Gainesville by the fry</strong></h1>
+<h2>Hungry for french fries?</h2>
+<p>Waffle, seasoned, sweet potato, regular. Everyone has a favorite type of fry, and sometimes you're simply craving a salty snack. But where does one find a freshly fried, crisp waffle fry in Gainesville?</p>
+<p>Find your favorite fry type below to find a local spot to eat, and use the map to find a nearby restaurant to eat a fry.</p>
+<img src="images/sweet-potato-fries.jpg" alt="Two bowls of sweet potato fries">
+<p class='caption'>Photo credit: David Long from London, United Kingdom [<a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Waffle_and_sweet_potato_fries.jpg">via Wikimedia Commons</a></p>
+<h3>Regular Fries</h3>
+<div id="regular-table"></div>
+<h3>Sweet Potato Fries</h3>
+<div id="sweet-table"></div>
+<h3>Curly Fries</h3>
+<div id="curly-table"></div>
+<h3>Seasoned Fries</h3>
+<div id="seasoned-table"></div>
+<h3>Waffle Fries</h3>
+<div id="waffle-table"></div>
+<h3>Map</h3>
+<div id="mapid"></div>
+
+<p> Site created by Taylor Girtman. All restaurant menu information, prices and nutrition facts were retreived from individual restaurant websites. Tables built with <a href="http://tabulator.info/"> Tabulator.</a></p>
+
+
+<script type="text/javascript" src="dist/js/tabulator.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+  crossorigin=""></script>
+  <script src="js/locations.js"></script>
+<script src="js/restaurants.js"></script>
+</body>
+</html>
